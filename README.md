@@ -29,5 +29,5 @@ Your goal is to guess the secret number within a limited number of chances, base
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/HimanshuBhamaniya/number-guessing-game.git>
 cd number-guessing-game
