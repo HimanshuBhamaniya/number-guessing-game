@@ -31,3 +31,37 @@ Your goal is to guess the secret number within a limited number of chances, base
 ```bash
 git clone <https://github.com/HimanshuBhamaniya/number-guessing-game.git>
 cd number-guessing-game
+```
+### 2. Create a virtual environment
+```bash
+python -m venv venv
+```
+#### Activate it:
+```bash
+source venv/Scripts/activate
+```
+
+### 3. Run the game
+```bash
+python number_guessing_game.py
+```
+
+# 🛠️ Gameplay Example
+```code
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100.
+You have 5 chances to guess the correct number.
+Please select the difficulty level:
+1. Easy (10 chances)
+2. Medium (5 chances)
+3. Hard (3 chances)
+
+Enter your choice > 2
+Great! You have selected the 2 difficulty level. Let's start the game!
+Enter your guess > 50
+Incorrect! Your guess is too low.
+Enter your guess > 75
+Incorrect! Your guess is too high.
+Enter your guess > 63
+Good job! You got it in 3 guesses.
+```
